@@ -1,6 +1,7 @@
 ### Exemplo de Readme para o seu projeto
 
-# api-sentimentos
+# api-conversor
+##  Conversor de medidas, converte de metros para centímetros
 
 Projeto que sobe um Container e, neste, uma API RESTful com o Swagger
 
