@@ -45,9 +45,9 @@ class ConversorMetrosCent():
                 resp = val * 100
             else: 
                 resp = 'Digite a medida em metros'
-
-        print(resp)
-
-        response.append(resp)
+            logger.debug(val)
+        
+            response.append(resp)
+        return response 
 
         
