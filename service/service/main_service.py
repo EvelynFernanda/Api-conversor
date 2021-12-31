@@ -9,14 +9,14 @@ import numpy as np
 class ConversorMetrosCent():
 
     def __init__(self):
+
             logger.debug(mensagens.INICIO_LOAD_MODEL)
             self.load_model()
 
     def load_model(self):
 
             logger.debug(mensagens.FIM_LOAD_MODEL)
-
-    
+ 
 
     def executar_conv(self, value):
         response = {}
@@ -37,13 +37,17 @@ class ConversorMetrosCent():
     
         logger.debug('Iniciando a conversão...')
 
-        if valorM >= 1:
-            response = valorM * 100
-        else: 
-            response = 'Digite a medida em metrôs'
+        response = []
 
-        print(response)
+        for val in valorM:
+            
+            if val >= 1:
+                resp = val * 100
+            else: 
+                resp = 'Digite a medida em metros'
 
-        return response
+        print(resp)
+
+        response.append(resp)
 
         

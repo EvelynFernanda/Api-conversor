@@ -9,7 +9,7 @@ import os
 """
 API_NAME = "Servico API"
 VERSION_API = '1.0.1'
-TITLE_API = "api-conversor"
+TITLE_API = "api-conv"
 DESCRIPTION_API = "API."
 
 # Flask settings

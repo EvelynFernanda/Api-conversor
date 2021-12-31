@@ -1,8 +1,8 @@
 # Mensagens log API
 INICIO_LOAD_MODEL = "Carregando o modelo..."
 FIM_LOAD_MODEL = "Modelo carregado."
-INICIO_CONV = "Iniciando a conversão..."
-FIM_CONV= "Fim da conversão"
+INICIO_CONVERSAO = "Iniciando a conversão..."
+FIM_CONVERSAO= "Fim da conversão"
  
 
 # Error Business #
