@@ -1,6 +1,6 @@
-### Exemplo de Readme para o seu projeto
 
-# api-sentimentos
+# api-conversor
+##  Conversor de medidas, converte de metros para centímetros
 
 Projeto que sobe um Container e, neste, uma API RESTful com o Swagger
 
@@ -21,6 +21,7 @@ docker-compose up
 
 ## Authors
 
+* **Evelyn Fernanda** - *Modified work* 
 * **Patrick Luiz** - *Initial work*
 
 ## Exemplo de template copiado de: https://gist.github.com/PurpleBooth/109311bb0361f32d87a2# Api-conversor
