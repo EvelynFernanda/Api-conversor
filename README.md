@@ -1,4 +1,3 @@
-### Exemplo de Readme para o seu projeto
 
 # api-conversor
 ##  Conversor de medidas, converte de metros para centímetros
